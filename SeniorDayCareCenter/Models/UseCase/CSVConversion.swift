@@ -31,7 +31,6 @@ struct CsvConversion {
                 return revisonString
             }
             guard array.count == 24 else {
-                print(array)
                 return
 
             }

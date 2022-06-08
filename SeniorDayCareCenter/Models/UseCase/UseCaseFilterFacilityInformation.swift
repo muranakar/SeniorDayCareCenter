@@ -38,7 +38,6 @@ struct UseCaseFilterFacilityInformation {
                 serviceType: .DayCareRehabilitation
             )
         }
-        print(facilityInformations[1])
         return facilityInformations
     }
 }
