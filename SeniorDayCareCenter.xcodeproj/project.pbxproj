@@ -13,6 +13,9 @@
 		B28EE172284BF6B000180139 /* UseCaseCsvConversionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28EE171284BF6B000180139 /* UseCaseCsvConversionTests.swift */; };
 		B28EE17B284C053F00180139 /* CSVConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28EE17A284C053F00180139 /* CSVConversion.swift */; };
 		B28EE17D284C0D3300180139 /* FilterServiceTypeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28EE17C284C0D3300180139 /* FilterServiceTypeRepository.swift */; };
+		B2903C2C2850D6C40083E2E1 /* 150_通所介護.csv in Resources */ = {isa = PBXBuildFile; fileRef = B2903C2B2850D6C40083E2E1 /* 150_通所介護.csv */; };
+		B2903C2E2850D6CA0083E2E1 /* 155_通所介護（療養通所介護）.csv in Resources */ = {isa = PBXBuildFile; fileRef = B2903C2D2850D6CA0083E2E1 /* 155_通所介護（療養通所介護）.csv */; };
+		B2903C302850D6D20083E2E1 /* 160_通所リハビリテーション.csv in Resources */ = {isa = PBXBuildFile; fileRef = B2903C2F2850D6D20083E2E1 /* 160_通所リハビリテーション.csv */; };
 		B2916E8C282EFBCF006134BE /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2916E8B282EFBCF006134BE /* WebViewViewController.swift */; };
 		B2916E8E282EFBDC006134BE /* WebView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2916E8D282EFBDC006134BE /* WebView.storyboard */; };
 		B2916E91282EFCAF006134BE /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2916E90282EFCAF006134BE /* WebKit.framework */; };
@@ -27,9 +30,6 @@
 		B298148E282DCAB500A3D0C3 /* DecoderFacliityInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B298148D282DCAB500A3D0C3 /* DecoderFacliityInformation.swift */; };
 		B2981492282DD52300A3D0C3 /* Prefecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2981491282DD52300A3D0C3 /* Prefecture.swift */; };
 		B2981494282DD87A00A3D0C3 /* PrefectureRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2981493282DD87A00A3D0C3 /* PrefectureRepository.swift */; };
-		B298A27E285014920042C036 /* 160_通所リハビリテーション.csv in Resources */ = {isa = PBXBuildFile; fileRef = B298A27B285014920042C036 /* 160_通所リハビリテーション.csv */; };
-		B298A27F285014920042C036 /* 155_通所介護（療養通所介護）.csv in Resources */ = {isa = PBXBuildFile; fileRef = B298A27C285014920042C036 /* 155_通所介護（療養通所介護）.csv */; };
-		B298A280285014920042C036 /* 150_通所介護.csv in Resources */ = {isa = PBXBuildFile; fileRef = B298A27D285014920042C036 /* 150_通所介護.csv */; };
 		B2A945D2282C6B810001B737 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A945D1282C6B810001B737 /* AppDelegate.swift */; };
 		B2A945D4282C6B810001B737 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A945D3282C6B810001B737 /* SceneDelegate.swift */; };
 		B2A945D9282C6B810001B737 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2A945D7282C6B810001B737 /* Main.storyboard */; };
@@ -73,6 +73,9 @@
 		B28EE171284BF6B000180139 /* UseCaseCsvConversionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseCsvConversionTests.swift; sourceTree = "<group>"; };
 		B28EE17A284C053F00180139 /* CSVConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVConversion.swift; sourceTree = "<group>"; };
 		B28EE17C284C0D3300180139 /* FilterServiceTypeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterServiceTypeRepository.swift; sourceTree = "<group>"; };
+		B2903C2B2850D6C40083E2E1 /* 150_通所介護.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "150_通所介護.csv"; sourceTree = "<group>"; };
+		B2903C2D2850D6CA0083E2E1 /* 155_通所介護（療養通所介護）.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "155_通所介護（療養通所介護）.csv"; sourceTree = "<group>"; };
+		B2903C2F2850D6D20083E2E1 /* 160_通所リハビリテーション.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "160_通所リハビリテーション.csv"; sourceTree = "<group>"; };
 		B2916E8B282EFBCF006134BE /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
 		B2916E8D282EFBDC006134BE /* WebView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WebView.storyboard; sourceTree = "<group>"; };
 		B2916E90282EFCAF006134BE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
@@ -87,9 +90,6 @@
 		B298148D282DCAB500A3D0C3 /* DecoderFacliityInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoderFacliityInformation.swift; sourceTree = "<group>"; };
 		B2981491282DD52300A3D0C3 /* Prefecture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prefecture.swift; sourceTree = "<group>"; };
 		B2981493282DD87A00A3D0C3 /* PrefectureRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrefectureRepository.swift; sourceTree = "<group>"; };
-		B298A27B285014920042C036 /* 160_通所リハビリテーション.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "160_通所リハビリテーション.csv"; sourceTree = "<group>"; };
-		B298A27C285014920042C036 /* 155_通所介護（療養通所介護）.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "155_通所介護（療養通所介護）.csv"; sourceTree = "<group>"; };
-		B298A27D285014920042C036 /* 150_通所介護.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "150_通所介護.csv"; sourceTree = "<group>"; };
 		B2A945CE282C6B810001B737 /* SeniorDayCareCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeniorDayCareCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2A945D1282C6B810001B737 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2A945D3282C6B810001B737 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -241,9 +241,9 @@
 		B2981489282DB07000A3D0C3 /* CSV */ = {
 			isa = PBXGroup;
 			children = (
-				B298A27D285014920042C036 /* 150_通所介護.csv */,
-				B298A27C285014920042C036 /* 155_通所介護（療養通所介護）.csv */,
-				B298A27B285014920042C036 /* 160_通所リハビリテーション.csv */,
+				B2903C2B2850D6C40083E2E1 /* 150_通所介護.csv */,
+				B2903C2D2850D6CA0083E2E1 /* 155_通所介護（療養通所介護）.csv */,
+				B2903C2F2850D6D20083E2E1 /* 160_通所リハビリテーション.csv */,
 			);
 			path = CSV;
 			sourceTree = "<group>";
@@ -441,12 +441,12 @@
 				B2A945DE282C6B850001B737 /* LaunchScreen.storyboard in Resources */,
 				B2916E8E282EFBDC006134BE /* WebView.storyboard in Resources */,
 				B2C2E8E628411450001A4316 /* Search.storyboard in Resources */,
-				B298A280285014920042C036 /* 150_通所介護.csv in Resources */,
-				B298A27E285014920042C036 /* 160_通所リハビリテーション.csv in Resources */,
 				B2B85EFA282D43400065E12E /* Map.storyboard in Resources */,
 				B2981488282DAF2200A3D0C3 /* ChildDevelopmentSupport.json in Resources */,
+				B2903C2C2850D6C40083E2E1 /* 150_通所介護.csv in Resources */,
 				B2A945DB282C6B850001B737 /* Assets.xcassets in Resources */,
-				B298A27F285014920042C036 /* 155_通所介護（療養通所介護）.csv in Resources */,
+				B2903C302850D6D20083E2E1 /* 160_通所リハビリテーション.csv in Resources */,
+				B2903C2E2850D6CA0083E2E1 /* 155_通所介護（療養通所介護）.csv in Resources */,
 				B2A945D9282C6B810001B737 /* Main.storyboard in Resources */,
 				B2B85EFC282D434B0065E12E /* Setting.storyboard in Resources */,
 				B2B01A442848203D00B820AC /* DetailSearch.storyboard in Resources */,
@@ -750,7 +750,7 @@
 				DEVELOPMENT_TEAM = DJ7VR35KC8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeniorDayCareCenter/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "老人ホームMAP";
+				INFOPLIST_KEY_CFBundleDisplayName = "デイ・デイケアMAP";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "近くの事業所を検索するために、あなたの位置情報を使用します。";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -783,7 +783,7 @@
 				DEVELOPMENT_TEAM = DJ7VR35KC8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeniorDayCareCenter/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "老人ホームMAP";
+				INFOPLIST_KEY_CFBundleDisplayName = "デイ・デイケアMAP";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "近くの事業所を検索するために、あなたの位置情報を使用します。";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
