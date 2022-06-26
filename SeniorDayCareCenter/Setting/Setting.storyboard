@@ -23,7 +23,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qXb-gY-pQp">
-                                <rect key="frame" x="0.0" y="144.5" width="414" height="150"/>
+                                <rect key="frame" x="0.0" y="129.5" width="414" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="hmT-kG-JNq"/>
                                 </constraints>
@@ -33,7 +33,7 @@
                                 </connections>
                             </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hLb-Vi-LaZ" customClass="FunctionSelectionItemButton" customModule="SeniorDayCareCenter">
-                                <rect key="frame" x="132" y="344.5" width="150" height="50"/>
+                                <rect key="frame" x="132" y="309.5" width="150" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="NuH-37-Y4y"/>
                                     <constraint firstAttribute="height" constant="50" id="lAu-hh-eDn"/>
@@ -55,17 +55,24 @@
                                 <rect key="frame" x="0.0" y="653" width="414" height="80"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="twitter" translatesAutoresizingMaskIntoConstraints="NO" id="R1b-qR-45q">
-                                        <rect key="frame" x="0.0" y="0.0" width="207" height="80"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="138" height="80"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="WFj-fr-6zU" appends="YES" id="TTQ-e4-ICT"/>
                                         </connections>
                                     </imageView>
                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LINE_Brand_icon" translatesAutoresizingMaskIntoConstraints="NO" id="HBx-ef-hxz">
-                                        <rect key="frame" x="207" y="0.0" width="207" height="80"/>
+                                        <rect key="frame" x="138" y="0.0" width="138" height="80"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="0yh-9i-s3F" appends="YES" id="jdQ-EZ-Q1e"/>
+                                        </connections>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="otherApp" translatesAutoresizingMaskIntoConstraints="NO" id="Cds-L0-soD">
+                                        <rect key="frame" x="276" y="0.0" width="138" height="80"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="kwc-Zw-yRR" appends="YES" id="vHb-G4-f56"/>
                                         </connections>
                                     </imageView>
                                 </subviews>
@@ -75,7 +82,7 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YW0-ke-dZT" customClass="FunctionSelectionItemButton" customModule="SeniorDayCareCenter">
-                                <rect key="frame" x="132" y="424.5" width="150" height="50"/>
+                                <rect key="frame" x="132" y="389.5" width="150" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="FWv-x0-LDa"/>
                                     <constraint firstAttribute="width" constant="150" id="XBX-LV-PgL"/>
@@ -95,11 +102,11 @@
                             <constraint firstItem="qXb-gY-pQp" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="Cq4-i8-fIl"/>
                             <constraint firstItem="eoJ-n8-iB4" firstAttribute="top" secondItem="KBM-XJ-x4H" secondAttribute="bottom" constant="30" id="EAW-A9-50z"/>
                             <constraint firstItem="hLb-Vi-LaZ" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="Hsn-Tt-ntt"/>
-                            <constraint firstItem="qXb-gY-pQp" firstAttribute="top" secondItem="YUq-6e-GZK" secondAttribute="bottom" constant="20" id="KbE-SY-hAH"/>
+                            <constraint firstItem="qXb-gY-pQp" firstAttribute="top" secondItem="YUq-6e-GZK" secondAttribute="bottom" constant="5" id="KbE-SY-hAH"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="YUq-6e-GZK" secondAttribute="trailing" constant="10" id="Kcb-Kf-PRu"/>
                             <constraint firstItem="eoJ-n8-iB4" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="QmN-Vk-RYi"/>
                             <constraint firstItem="KBM-XJ-x4H" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="R4h-kb-1vX"/>
-                            <constraint firstItem="hLb-Vi-LaZ" firstAttribute="top" secondItem="qXb-gY-pQp" secondAttribute="bottom" constant="50" id="SKv-E2-mbp"/>
+                            <constraint firstItem="hLb-Vi-LaZ" firstAttribute="top" secondItem="qXb-gY-pQp" secondAttribute="bottom" constant="30" id="SKv-E2-mbp"/>
                             <constraint firstItem="YW0-ke-dZT" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="gY0-hX-mLs"/>
                             <constraint firstItem="YW0-ke-dZT" firstAttribute="top" secondItem="hLb-Vi-LaZ" secondAttribute="bottom" constant="30" id="lJe-Ru-SVj"/>
                             <constraint firstItem="qXb-gY-pQp" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="lkx-ce-61y"/>
@@ -126,6 +133,11 @@
                         <action selector="shareLine:" destination="Y6W-OH-hqX" id="VNW-Mm-P2G"/>
                     </connections>
                 </tapGestureRecognizer>
+                <tapGestureRecognizer id="kwc-Zw-yRR">
+                    <connections>
+                        <action selector="shareOtherApp:" destination="Y6W-OH-hqX" id="IxK-xB-v5c"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-17.39130434782609" y="91.741071428571431"/>
         </scene>
@@ -141,6 +153,7 @@
     <resources>
         <image name="LINE_Brand_icon" width="1001" height="1000"/>
         <image name="gearshape" catalog="system" width="128" height="121"/>
+        <image name="otherApp" width="1080" height="1080"/>
         <image name="twitter" width="256" height="256"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
